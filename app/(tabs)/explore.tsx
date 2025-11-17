@@ -197,7 +197,7 @@ export default function SettingsScreen() {
 
           <TouchableOpacity
             style={styles.button}
-            onPress={() => Alert.alert('Info', 'Modification de localisation à venir')}
+            onPress={() => router.push('/location-picker')}
           >
             <ThemedText style={styles.buttonText}>📍 Changer de ville</ThemedText>
           </TouchableOpacity>
